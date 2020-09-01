@@ -55,6 +55,10 @@ window.onscroll = function(){
 	else{
 			mask_3.style.left = "";
 		}
+	
+	if (t > 4041) {
+			location.href = "https://jjoohee.github.io/battle_0901/";
+		}
 
 }
-		//if (t > 4620) {	location.href = 		}
+		
