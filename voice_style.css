@@ -24,14 +24,12 @@ p{line-height: 1.9em; word-break: keep-all; font-size: 1.2em;}
 	background: black;
 }
 
-#titlee h1{
-	width: 300px;
-	height: 100px;
+#timg{
+	width: 600px;
+	height: auto;
 	position: absolute;
-	left: calc(50% - 150px);
-	top: calc(50% - 50px);
-	text-align: center;
-	font-size: 3em;
+	left: calc(50% - 300px);
+	top: calc(50% - 192.5px);
 }
 
 .warp{
