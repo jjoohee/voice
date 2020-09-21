@@ -1,4 +1,4 @@
-           @font-face {
+            @font-face {
     font-family: 'MapoGoldenPier';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoGoldenPierA.woff') format('woff');
     font-weight: normal;
@@ -463,10 +463,10 @@ p{line-height: 1.9em; word-break: keep-all; font-size: 1.2em;}
 }
 .spanclassss{
 	font-size: 1.5em;
+}
 
 }
-}
-	
+
 #text1{
 	top: 240px;
 }
