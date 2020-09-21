@@ -116,81 +116,54 @@ p{line-height: 1.9em; word-break: keep-all; font-size: 1.2em;}
 
 #talk{
 	position: absolute;
-	top: 110px;
+	top: 450px;
 	left: 220px;
 	animation: ta 0.5s infinite linear alternate, ta- 1s infinite ease-in alternate
 }
 
+#talk2{
+	position: absolute;
+	top: 410px;
+	right: 320px;
+	animation: ta- 0.1s infinite ease-in alternate
+}
+
 @keyframes ta { 
-				to {position: absolute; left: 215px;}
-				from{position: absolute; left: 225px;}
+				to {position: absolute; left: 335px;}
+				from{position: absolute; left: 345px;}
 			}
 
 @keyframes ta- { 
 				to { position: absolute; }
 				from {transform: translateY(-7%); position: absolute;}
 			}
-
-#pep2_2{
+#limask2{
 	position: absolute;
-	top: 750px;
-	left: 175px;
+	width: 100px;
+	height: auto;
+	right: 250px;
+	top: 500px;
+	animation: ta- 2s infinite ease-in alternate
+}
+
+#pep1{
+	position: absolute;
+	top: 660px;
+	left: 100px;
 	animation: peptw 0.5s infinite linear alternate;
 }
 
-
-#pep2_22{
-	position: absolute;
-	top: 750px;
-	left: calc(50% - 89px);
-	animation: peptw 0.4s infinite linear alternate;
-}
-
-#pep2_23{
-	position: absolute;
-	top: 750px;
-	right: 175px;
-	animation: peptw 0.3s infinite linear alternate;
-}
-
-
 @keyframes peptw { 
-				to {position: absolute; top: 760px;}
-				from{position: absolute; top: 723px;}
+				from{position: absolute; top: 623px;}
 			}
 
-#pep2_1{
-	position: absolute;
-	top: 810px;
-	left: 0px;
-	animation: peptwo 0.45s infinite linear alternate;
-}
 
-#pep2_12{
+#grass2{
 	position: absolute;
-	top: 810px;
-	left: 345px;
-	animation: peptwo 0.5s infinite linear alternate;
-}
+	top: 430px;
+	left: calc(50% - 600px);
 
-#pep2_13{
-	position: absolute;
-	top: 810px;
-	right: 0px;
-	animation: peptwo 0.43s infinite linear alternate;
 }
-
-#pep2_14{
-	position: absolute;
-	top: 810px;
-	right: 345px;
-	animation: peptwo 0.35s infinite linear alternate;
-}
-
-@keyframes peptwo { 
-				to {position: absolute; top: 850px;}
-				from{position: absolute; top: 800px;}
-			}
 
 #grass{
 	position: absolute;
@@ -228,7 +201,7 @@ p{line-height: 1.9em; word-break: keep-all; font-size: 1.2em;}
 	top: 1250px;
 	left: 0px;
 	transition: all 1s;
-	animation: sp 0.2s infinite ease-in alternate;
+
 }
 
 @keyframes sp { 
@@ -241,7 +214,7 @@ p{line-height: 1.9em; word-break: keep-all; font-size: 1.2em;}
 	top: 1250px;
 	right: 0px;
 	transition: all 1s;
-	animation: spp 0.2s infinite ease-in alternate;
+
 }
 
 @keyframes spp { 
@@ -490,12 +463,11 @@ p{line-height: 1.9em; word-break: keep-all; font-size: 1.2em;}
 }
 .spanclassss{
 	font-size: 1.5em;
-}
 
 }
 
 #text1{
-	top: 300px;
+	top: 240px;
 }
 
 #text2{
