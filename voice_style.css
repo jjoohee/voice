@@ -13,7 +13,7 @@ h1, p{ color: white;
 p{line-height: 1.9em; word-break: keep-all; font-size: 1.2em;}
 
 
-#moniter{width: 80px; height: 30px; background: black; color: white; position: fixed; top: 0; right: 0; opacity:0%}
+#moniter{width: 80px; height: 30px; background: black; color: white; position: fixed; top: 0; right: 0; opacity:0%;}
 
 #titlee{
 	width: 1200px;
