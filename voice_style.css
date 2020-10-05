@@ -215,7 +215,7 @@ transition: width 1000ms cubic-bezier(.25, 0, 0, 1);
 
 #speak1{
 	position: absolute;
-	top: 1250px;
+	top: 1200px;
 	left: 0px;
 	transition: all 1s;
 
@@ -228,7 +228,7 @@ transition: width 1000ms cubic-bezier(.25, 0, 0, 1);
 
 #speak2{
 	position: absolute;
-	top: 1250px;
+	top: 1200px;
 	right: 0px;
 	transition: all 1s;
 
