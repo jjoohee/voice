@@ -401,7 +401,7 @@ transition: width 1000ms cubic-bezier(.25, 0, 0, 1);
 
 #mask2{
 	position: absolute;
-	bottom: 740px;
+	bottom: 760px;
 	left: calc(50% - 150.5px);
 	animation: maska 0.2s infinite  linear alternate;
 }
