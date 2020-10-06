@@ -497,10 +497,38 @@ transition: width 1000ms cubic-bezier(.25, 0, 0, 1);
 }
 
 #text4{
-	top: 3400px;
+	top: 3350px;
 
 }
+#text41{
+	opacity: 0%;
+	transition: 0s 0.2s all;
+}
 
+#text42{
+	opacity: 0%;
+	transition: 0s 0.45s all;
+}
+
+#text43{
+	opacity: 0%;
+	transition: 0s 0.65s all;
+}
+
+#text44{
+	opacity: 0%;
+	transition: 0s 0.8s all;
+}
+
+#text45{
+	opacity: 0%;
+	transition: 0s 0.95s all;
+}
+
+#text46{
+	opacity: 0%;
+	transition: 0s 1.3s all;
+}
 #text5{
 	top: 4250px;
 }
