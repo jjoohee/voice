@@ -15,7 +15,12 @@ window.onscroll = function(){
 		if (t > 3500) {
 			mask_2.style.right = "-2px";
 			voicemain.style.background = "url(back0-2.gif)";
-
+			text41.style.opacity = "100%"
+			text42.style.opacity = "100%"
+			text43.style.opacity = "100%"
+			text44.style.opacity = "100%"
+			text45.style.opacity = "100%"
+			text46.style.opacity = "100%"
 		}
 		else{
 			mask_2.style.right = "";
