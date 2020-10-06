@@ -8,6 +8,11 @@ window.onscroll = function(){
 			text12.style.opacity = "100%";
 			text13.style.opacity = "100%";
 		}
+	else{
+			text11.style.opacity = "";
+			text12.style.opacity = "";
+			text13.style.opacity = "";
+		}
 
 		if (t > 3300) {
 			mask.style.left = "-2px";
