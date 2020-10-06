@@ -2,6 +2,12 @@
 window.onscroll = function(){
 		var t =document.documentElement.scrollTop + document.body.scrollTop;
 		moniter.innerHTML = t
+	
+	if (t > 600) {
+			text11.style.opacity = "100%";
+			text12.style.opacity = "100%";
+			text13.style.opacity = "100%";
+		}
 
 		if (t > 3300) {
 			mask.style.left = "-2px";
