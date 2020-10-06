@@ -487,6 +487,20 @@ transition: width 1000ms cubic-bezier(.25, 0, 0, 1);
 #text1{
 	top: 240px;
 }
+#text11{
+	opacity: 0%;
+	transition: 1.2s all;
+}
+
+#text12{
+	opacity: 0%;
+	transition: 1.2s 1s all;
+}
+
+#text13{ 
+	opacity: 0%;
+	transition: 1.2s 2s all;
+}
 
 #text2{
 	top: 1450px;
