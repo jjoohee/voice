@@ -72,7 +72,7 @@ window.onscroll = function(){
         
      if (Math.round( $(window).scrollTop()) == $(document).height() - $(window).height()) {
         
- 	 var url = "https://jjoohee.github.io/about-misfortune/.";
+ 	 var url = "https://jjoohee.github.io/misfortune/.";
 		$(location).attr('href',url);
         
     }
